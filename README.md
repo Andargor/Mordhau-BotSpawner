@@ -5,7 +5,7 @@ This will spawn bots according to the settings below when there are players pres
 
 # Installation
 
-Place the PAK file under Mordhau/Content/Paks. Then in `Game.ini`, add the following under the `[/Script/Mordhau.MordhauGameMode]` section:
+Place the PAK file under Mordhau/Content/Paks. Then in `Game.ini`, add the following under the `[/Script/Mordhau.MordhauGameMode]` section, and restart the server:
 
 ```ini
 SpawnServerActorsOnMapLoad=/Game/Mordhau/Maps/BotSpawner/BP_BotSpawner.BP_BotSpawner_C
